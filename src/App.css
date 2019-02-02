@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Gallery {
+    margin: 5px;
+    float: left;
+    width: 207px;
+    height: 240px;
+    background-color: #ffffff;
+}
+
+.Gallery img {
+    width: 50%;
+    height: auto;
+}
+
+.Gallery:hover{
+  border:2px solid #e7e7e7; 
+}
+
+.DescText {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+    line-height: 0.6;
+}
+.Desc {
+    text-align: left;
+    padding-left: 35px;
+}
+
+.Childcard {
+    height: 360px;
+    float:left;
+    width: 25%;
+}
+
+.Btnadd {
+    color: orange;
+    background-color: #ffffff;
+    border: 2px solid orange;
+    height: 31px;
+    width: 145px;
+    position: relative;
+    bottom: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.Btnadd:hover {
+   color:white;
+   background-color: orange;
+}
+
+.Header {
+    background-color: #444;
+    height: 76px;
+    width: 100%;
+    display: flex;
+}
+
+.Content {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 77px;
+    bottom: 8px;
+}
+.Content-text {
+    color: white;
+}
+
+.Cart {
+    float: right;
+    height: 62px;
+    width: 251px;
+    background-color: #fff;
+    position: relative;
+    top: 5px;
+    margin-right: 12px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
